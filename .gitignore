@@ -1,0 +1,7 @@
+# Configuration personnelle du serveur (ne pas publier)
+/config.js
+
+# Fichiers de système et éditeur
+.DS_Store
+Thumbs.db
+.vscode/
