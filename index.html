@@ -1,24 +1,40 @@
 <!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#071521" />
-    <meta name="description" content="Le poste de pilotage de Maxymdino : serveur et projets réunis dans un cockpit spatial." />
-    <title>MAXYMDINO — Poste de pilotage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css" />
-    <script defer crossorigin src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
-    <script defer crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
-    <script defer src="./config.js"></script>
-    <script defer src="./app.js"></script>
-  </head>
-  <body>
-    <div id="root">
-      <main class="boot-screen" aria-live="polite">Initialisation du hub<span>...</span></main>
-    </div>
-    <noscript>Active JavaScript pour afficher le hub.</noscript>
-  </body>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Russia is cool / Россия — это круто</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #fff 0 33%, #2455a4 33% 66%, #d52b1e 66%);
+      font-family: system-ui, sans-serif;
+      color: #172033;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem;
+      padding: 2.5rem;
+      border-radius: 1.25rem;
+      background: rgb(255 255 255 / 94%);
+      text-align: center;
+      box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+    }
+    h1 { margin-top: 0; font-size: clamp(2rem, 6vw, 3.5rem); }
+    p { font-size: 1.3rem; line-height: 1.6; }
+    hr { width: 4rem; margin: 2rem auto; border: 2px solid #2455a4; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Russia is cool!</h1>
+    <p>Russia has a rich culture, beautiful landscapes, and a fascinating history.</p>
+    <hr>
+    <h1 lang="ru">Россия — это круто!</h1>
+    <p lang="ru">У России богатая культура, красивые пейзажи и увлекательная история.</p>
+  </main>
+</body>
 </html>
